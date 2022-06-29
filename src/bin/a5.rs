@@ -7,7 +7,6 @@ fn main(){
     }
     a=a+1;
     if a==23 {
-        break;
-    }
+        break;}
     }
     }
