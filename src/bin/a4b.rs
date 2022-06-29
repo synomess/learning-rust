@@ -1,3 +1,13 @@
+fn main() {
+        let number:i32=2;
+        match number {
+            1=>println!("bir"),
+            2=>println!("iki"),
+            3=>println!("uc"),
+            _=>println!("other"),
+        }
+}
+
 // Topic: Decision making with match
 //
 // Program requirements:
@@ -9,13 +19,3 @@
 // * Use a variable set to any integer
 // * Use a match expression to determine which message to display
 // * Use an underscore (_) to match on any value
-
-fn main() {
-        let number=2;
-        match number {
-            1=>println!("bir"),
-            2=>println!("iki"),
-            3=>println!("uc"),
-            _=>println!("other"),
-        }
-}
