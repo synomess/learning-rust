@@ -10,6 +10,5 @@ fn main() {
         else {
             println!("11'den kucuk");
         }
-}fn abc(a:i32,b:i32)->i32 {
-    a+b
-}
+}   fn abc(a:i32,b:i32)->i32   
+    {a+b}
