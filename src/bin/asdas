@@ -1,0 +1,9 @@
+fn main() {
+        let a:i32=5;
+        let b:i32=6;
+        let ab:i32=abc(a,b);
+        if ab==11 { 
+        println!("its 11");}
+}fn abc(a:i32,b:i32)->i32 {
+    a+b
+}
