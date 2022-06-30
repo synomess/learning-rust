@@ -11,4 +11,6 @@ enum Color {
        }
    }  fn main() {
     print_color(Color::mavi);
+    print_color(Color::kirmizi);
+    print_color(Color::mor);
    }
